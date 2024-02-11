@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Protest Strike' ;
+    src: url(/Assets/fonts/ProtestStrike-Regular.ttf);
+}
+
+.header{
+    background-color: rgba(78, 18, 18, 0.1); /* Just for demonstration */
+    color: rgba(255, 255, 255, 0.952); /* Just for demonstration */
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 20px;
+    
+}
+
+.signin {
+    margin: 0; /* Reset default margin */
+}
+
+.signin:hover {
+    color: rgba(247, 76, 76, 0.952);
+}
+
+.watch {
+    margin: 0; /* Reset default margin */
+    font-size: 20px;
+    font-weight: 10;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.hero {
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(252, 251, 251); /* Adjust text color */
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    text-align: left;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.hero-description {
+    font-size: 20px;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.hero-button {
+    background-color: #ff5e3a; /* Adjust button color */
+    color: white;
+    margin: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Protest Strike', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #ff775a; /* Adjust button hover color */
+}
